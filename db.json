@@ -1,0 +1,77 @@
+{
+  "tecnicaturas": [
+    {
+      "id": "1",
+      "nombre": "Tecnicatura en Programación",
+      "descripcion": "Formación en desarrollo de software, bases de datos y desarrollo web moderno.",
+      "cantidadTesis": 12,
+      "imagen": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?w=500"
+    },
+    {
+      "id": "2",
+      "nombre": "Tecnicatura en Mecatrónica",
+      "descripcion": "Integración de sistemas mecánicos, electrónicos y de control automatizado.",
+      "cantidadTesis": 8,
+      "imagen": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?w=500"
+    },
+    {
+      "id": "3",
+      "nombre": "Tecnicatura en Telecomunicaciones",
+      "descripcion": "Especialización en redes de datos, infraestructura y comunicaciones digitales.",
+      "cantidadTesis": 6,
+      "imagen": "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=500"
+    }
+  ],
+  "tesis": [
+    {
+      "id": "101",
+      "tecnicaturaId": "1",
+      "nombreTecnicatura": "Tecnicatura en Programación",
+      "titulo": "Sistema de Gestión Bibliotecaria Digital",
+      "autores": ["Juan Pérez", "María González"],
+      "anio": 2024,
+      "tema": "Desarrollo Web",
+      "resumen": "Plataforma web para consulta de libros digitales y programas de estudio en la universidad.",
+      "vistas": 342,
+      "fecha": "15 de Noviembre, 2024",
+      "miniaturaimagen": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=500",
+      "imagenPrincipal": "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=800",
+      "galeria": [
+        "https://images.unsplash.com/photo-1532012197267-da84d127e765?w=400",
+        "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=400"
+      ],
+      "integrantes": [
+        { "nombre": "Juan Pérez", "foto": "https://i.pravatar.cc/150?img=11" },
+        { "nombre": "María González", "foto": "https://i.pravatar.cc/150?img=5" }
+      ],
+      "urlPdf": "#",
+      "urlVideo": "#",
+      "urlGithub": "https://github.com",
+      "urlYoutube": "https://youtube.com"
+    },
+    {
+      "id": "102",
+      "tecnicaturaId": "1",
+      "nombreTecnicatura": "Tecnicatura en Programación",
+      "titulo": "Algoritmo de IA para Detección de Plagas",
+      "autores": ["Lucas Rodríguez"],
+      "anio": 2023,
+      "tema": "Inteligencia Artificial",
+      "resumen": "Modelo de Machine Learning entrenado para identificar enfermedades en cultivos agrícolas.",
+      "vistas": 512,
+      "fecha": "10 de Diciembre, 2023",
+      "miniaturaimagen": "https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?w=500",
+      "imagenPrincipal": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800",
+      "galeria": [
+        "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=400"
+      ],
+      "integrantes": [
+        { "nombre": "Lucas Rodríguez", "foto": "https://i.pravatar.cc/150?img=12" }
+      ],
+      "urlPdf": "#",
+      "urlVideo": "#",
+      "urlGithub": "https://github.com",
+      "urlYoutube": "https://youtube.com"
+    }
+  ]
+}
