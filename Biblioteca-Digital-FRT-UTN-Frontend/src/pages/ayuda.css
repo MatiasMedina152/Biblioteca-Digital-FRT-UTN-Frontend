@@ -1,0 +1,144 @@
+/*título principal*/
+.titulo-ayuda {
+    padding: 35px 20px;
+    background: linear-gradient(135deg, var(--color-secundario), var(--color-superficie));
+    box-shadow: var(--sombra-card);
+}
+
+.titulo-ayuda h1 {
+    color: var(--color-blanco);
+    font-size: 3.5rem;
+}
+
+.titulo-ayuda p {
+    color: var(--color-blanco);
+    font-size: 1.1rem;
+}
+
+
+/*títuo de sección*/
+.titulo-seccion {
+    background: linear-gradient(90deg, var(--color-primario), var(--color-superficie));
+    color: var(--color-secundario);
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+}
+
+
+/*acordeón*/
+
+.acordeon-ayuda .accordion-item {
+    border: none;
+    overflow: hidden;
+}
+
+.acordeon-ayuda .accordion-header {
+    background: transparent;
+}
+
+.acordeon-ayuda .accordion-button {
+    color: var(--color-blanco);
+    background: linear-gradient(90deg, var(--color-primario), var(--color-superficie)); 
+    padding: 18px 20px;
+}
+
+.acordeon-ayuda .accordion-button:hover {
+    color: var(--color-secundario);
+}
+
+.acordeon-ayuda .accordion-button:not(.collapsed) {
+    color: var(--color-blanco);
+
+    background: linear-gradient(90deg, var(--color-secundario), var(--color-primario));
+    box-shadow: none;
+}
+
+.acordeon-ayuda .accordion-button:focus {
+    box-shadow: none;
+}
+
+.acordeon-ayuda .accordion-body {
+    color: var(--color-texto-suave);
+    background-color: var(--color-superficie);
+    padding: 20px;
+}
+
+/*formulario*/
+.formulario-ayuda {
+    background-color: var(--color-superficie);
+    padding: 35px;
+    box-shadow: var(--sombra-card);
+}
+
+.texto-formulario {
+    color: var(--color-texto-suave);
+}
+
+/*label*/
+.formulario-ayuda .form-label {
+    color: var(--color-blanco);
+    font-weight: 500;
+}
+
+/*inputs*/
+.formulario-ayuda .form-control {
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
+    border: 1px solid var(--color-primario-suave);
+}
+
+.formulario-ayuda .form-control::placeholder {
+    color: var(--color-texto-suave);
+}
+
+.formulario-ayuda .form-control:focus {
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
+    border-color: var(--color-secundario);
+    box-shadow: 0 0 0 0.2rem rgba(255, 119, 0, 0.25);
+}
+
+
+/*select*/
+
+.formulario-ayuda .form-select {
+    background-color: var(--color-primario);
+    color: var(--color-texto-suave);
+    border: 1px solid var(--color-primario-suave);
+}
+
+.formulario-ayuda .form-select:focus {
+    border-color: var(--color-secundario);
+    box-shadow: 0 0 0 0.2rem rgba(255, 119, 0, 0.25);
+}
+
+
+/* Opciones del select */
+
+.formulario-ayuda .form-select option {
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
+}
+
+/*boton enviar*/
+
+.btn-enviar {
+    background-color: var(--color-secundario);
+    border-color: var(--color-secundario);
+    color: var(--color-primario);
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+.btn-enviar:hover {
+    background-color: var(--color-secundario);
+    border-color: var(--color-blanco);
+    color: var(--color-blanco);
+    box-shadow: 0 0 .6rem var(--color-secundario)
+}
+
+.btn-enviar:focus {
+    background-color: var(--color-btn);
+    border-color: var(--color-btn);
+    box-shadow: 0 0 0 0.2rem rgba(255, 119, 0, 0.25);
+}

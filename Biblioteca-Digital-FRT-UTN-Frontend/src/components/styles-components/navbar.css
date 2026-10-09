@@ -1,0 +1,105 @@
+/*navbar*/
+.navbar {
+  background-color: var(--color-primario);
+}
+
+.navbar .nav-link,
+.navbar .dropdown-toggle {
+  color: var(--color-texto-suave);
+  transition: color 0.3s ease;  
+}
+
+.navbar .nav-link:hover,
+.navbar .dropdown-toggle:hover {
+  color: var(--color-secundario);
+}
+
+.navbar .nav-link:hover{
+  color: var(--color-secundario);
+}
+
+/*brand*/
+.navbar .navbar-brand {
+  color: var(--color-secundario);
+  font-size: x-large;
+  font-family: "Merriweather";
+  transition: color 0.3s ease;
+}
+
+.navbar .navbar-brand:hover {
+  color: var(--color-blanco);
+}
+
+/*dropdown*/
+.navbar .dropdown-menu {
+  background-color: var(--color-superficie);
+  border: none;
+  box-shadow: var(--sombra-card);
+}
+
+.navbar .dropdown-item {
+  color: var(--color-texto-suave);
+  transition: all 0.2s ease;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: var(--color-primario);
+  color: var(--color-secundario);
+}
+
+/*menu hamburguesa*/
+.navbar .navbar-toggler {
+  border: 2px solid var(--color-primario);
+    background: var(--color-secundario);
+}
+
+.navbar .navbar-toggler:hover{
+  border-color: var(--color-blanco);
+}
+
+/*botones login*/
+.btn-login {
+    color: var(--color-blanco);
+    background-color: transparent;
+    border: 1px solid var(--color-secundario);
+}
+
+.btn-login:hover {
+    color: var(--color-blanco);
+    background-color: var(--color-secundario);
+    border-color: var(--color-blanco);
+}
+
+
+.btn-login:focus,
+.btn-login:active,
+.btn-login:focus:active {
+    background-color: var(--color-primario);
+    border-color: var(--color-secundario);
+    color: var(--color-blanco);
+    box-shadow: none;
+}
+
+
+/*boton register*/
+.btn-register {
+    color: var(--color-blanco);
+    background-color: var(--color-secundario);
+    border: 1px solid var(--color-blanco);
+}
+
+.btn-register:hover {
+    color: var(--color-secundario);
+    background-color: var(--color-primario);
+    border-color: var(--color-secundario);
+}
+
+.btn-register:focus,
+.btn-register:active,
+.btn-register:focus:active {
+    background-color: var(--color-secundario);
+    border-color: var(--color-secundario);
+    color: var(--color-blanco);
+    box-shadow: none;
+}
+
