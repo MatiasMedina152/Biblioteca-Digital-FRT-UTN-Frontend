@@ -1,16 +1,19 @@
+import './App.css'
+
+import NavbarComponent from './components/Navbar.jsx';
+import BtnTop from './components/BtnTop.jsx'
+import Rutas from './components/routes/Rutas.jsx';
 import Footer from "./components/Footer.jsx";
 
 function App() {
   return (
-    <div className="d-flex flex-column min-vh-100">
-    <main className="flex-grow-1">
-      <h1>Repositorio de Proyectos</h1>
-      
-    </main>
-    <Footer />
-    </div>
-    
-  );
+    <>
+      <NavbarComponent />
+      <Rutas />
+      <BtnTop />
+      <Footer />
+    </>
+  )
 }
 
-export default App;
+export default App
