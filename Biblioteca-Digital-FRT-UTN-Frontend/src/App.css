@@ -9,6 +9,7 @@
     --color-superficie: #334155;
     --color-primario-suave: #64748b;
     --color-secundario: #ff7700;
+    --color-terciario: #fd4848;
     --color-btn: #f97b21;
     --color-blanco: #ffffff;
     --color-texto-suave: #cbd5e1;
@@ -29,3 +30,120 @@ p {
     font-family: "Inter", sans-serif;
     font-weight: 400;
 }
+/* Tecnicaturas */
+
+.tecnicaturas-titulo {
+    color: var(--color-secundario);
+}
+
+.card-tecnicaturas {
+    color: var(--color-blanco);
+    background-color: var(--color-superficie);
+    border: 2px solid var(--color-secundario);
+}
+
+.card-tecnicaturas .card-img-top {
+    border-bottom: 2px solid var(--color-secundario);
+}
+
+/* tecnicaturas-tesis */
+
+.tecnicaturas-tesis {
+    color: var(--color-secundario);
+}
+
+.car-tesis {
+    color: var(--color-blanco);
+    background-color: var(--color-superficie);
+    border: 2px solid var(--color-secundario);
+}
+
+.card-img-top {
+    border-bottom: 2px solid var(--color-secundario);
+}
+
+.card-titulo-tesis {
+    color: var(--color-secundario);
+}
+
+/* Tesis buscador */
+
+.card-filtro {
+    color: var(--color-blanco);
+    background-color: var(--color-superficie);
+    border: 2px solid var(--color-secundario);
+}
+
+.tema {
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
+    border: 1px solid var(--color-primario-suave);
+}
+
+.anio {
+    background-color: var(--color-primario);
+    color: var(--color-blanco);
+    border: 1px solid var(--color-primario-suave);
+}
+
+.form-control {
+    background-color: var(--color-primario);
+    border: 1px solid var(--color-primario-suave);
+}
+
+.form-control:focus {
+    background-color: var(--color-primario);
+    border-color: var(--color-secundario);
+    box-shadow: 0 0 0 0.2rem rgba(255, 119, 0, 0.25);
+}
+
+.form-select:focus {
+    background-color: var(--color-primario);
+    border-color: var(--color-secundario);
+    box-shadow: 0 0 0 0.2rem rgba(255, 119, 0, 0.25);
+}
+
+.form-control::placeholder {
+    color: var(--color-texto-suave);
+}
+
+/* Tesisi */
+.titulos-proyecto {
+    color: var(--color-blanco);
+}
+
+.titulos-proyecto h2 {
+    color: var(--color-secundario);
+}
+
+.integrantes {
+    color: var(--color-blanco);
+    background-color: var(--color-superficie);
+    border: 2px solid var(--color-secundario);
+}
+
+.card-header {
+    border-bottom: 2px solid var(--color-secundario);
+}
+
+.integrante-imagen {
+    border: 1px solid var(--color-secundario);
+}
+
+.redes {
+    color: var(--color-blanco);
+    background-color: var(--color-superficie);
+    border: 2px solid var(--color-secundario);
+}
+
+.btn-dark {
+    background-color: var(--color-btn);
+    border-color: var(--color-btn);
+}
+
+.descripcion-proyecto {
+    color: var(--color-blanco);
+    background-color: var(--color-superficie);
+    border: 2px solid var(--color-secundario);
+}
+

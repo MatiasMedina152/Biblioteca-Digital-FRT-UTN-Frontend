@@ -1,0 +1,503 @@
+{
+  "tecnicaturas": [
+    {
+      "id": "1",
+      "nombre": "Tecnicatura en Programación",
+      "descripcion": "Formación en desarrollo de software, bases de datos y desarrollo web moderno.",
+      "cantidadTesis": 12,
+      "imagen": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "2",
+      "nombre": "Tecnicatura en Mecatrónica",
+      "descripcion": "Integración de sistemas mecánicos, electrónicos y de control automatizado.",
+      "cantidadTesis": 8,
+      "imagen": "https://images.unsplash.com/photo-1563770660941-20978e870e26?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "3",
+      "nombre": "Tecnicatura en Programación en Videojuegos",
+      "descripcion": "Diseño y desarrollo de videojuegos: motores gráficos, mecánicas de juego, física e inteligencia artificial aplicada.",
+      "cantidadTesis": 5,
+      "imagen": "https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "4",
+      "nombre": "Tecnicatura en Higiene y Seguridad",
+      "descripcion": "Prevención de riesgos laborales, gestión de la seguridad en el trabajo y cumplimiento de normativas ambientales.",
+      "cantidadTesis": 4,
+      "imagen": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "5",
+      "nombre": "Tecnicatura en Logística",
+      "descripcion": "Gestión de la cadena de suministro, almacenes, transporte y distribución de mercaderías.",
+      "cantidadTesis": 6,
+      "imagen": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "6",
+      "nombre": "Tecnicatura en Mantenimiento Industrial",
+      "descripcion": "Mantenimiento preventivo, predictivo y correctivo de equipos y maquinaria de plantas industriales.",
+      "cantidadTesis": 5,
+      "imagen": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=500&q=80"
+    },
+    {
+      "id": "7",
+      "nombre": "Tecnicatura en Energía Sustentable",
+      "descripcion": "Generación, eficiencia y gestión de energías renovables: solar, eólica, biomasa y sistemas híbridos.",
+      "cantidadTesis": 7,
+      "imagen": "https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=500&q=80"
+    }
+  ],
+  "tesis": [
+    {
+      "id": "101",
+      "tecnicaturaId": "1",
+      "nombreTecnicatura": "Tecnicatura en Programación",
+      "titulo": "Sistema de Gestión Bibliotecaria Digital",
+      "autores": [
+        "Juan Pérez",
+        "María González"
+      ],
+      "anio": 2024,
+      "tema": "Desarrollo Web",
+      "resumen": "Plataforma web para consulta de libros digitales y programas de estudio en la universidad.",
+      "vistas": 342,
+      "fecha": "15 de Noviembre, 2024",
+      "miniaturaimagen": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?auto=format&fit=crop&w=500&q=80",
+      "imagenPrincipal": "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?auto=format&fit=crop&w=800&q=80",
+      "galeria": [
+        "https://images.unsplash.com/photo-1457369804613-52c61a468e7d?auto=format&fit=crop&w=400&q=80",
+        "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?auto=format&fit=crop&w=400&q=80"
+      ],
+      "integrantes": [
+        {
+          "nombre": "Juan Pérez",
+          "foto": "https://i.pravatar.cc/150?img=11"
+        },
+        {
+          "nombre": "María González",
+          "foto": "https://i.pravatar.cc/150?img=5"
+        }
+      ],
+      "urlPdf": "#",
+      "urlVideo": "#",
+      "urlGithub": "https://github.com",
+      "urlYoutube": "https://youtube.com"
+    },
+    {
+      "id": "102",
+      "tecnicaturaId": "1",
+      "nombreTecnicatura": "Tecnicatura en Programación",
+      "titulo": "Algoritmo de IA para Detección de Plagas",
+      "autores": [
+        "Lucas Rodríguez"
+      ],
+      "anio": 2023,
+      "tema": "Inteligencia Artificial",
+      "resumen": "Modelo de Machine Learning entrenado para identificar enfermedades en cultivos agrícolas.",
+      "vistas": 512,
+      "fecha": "10 de Diciembre, 2023",
+      "miniaturaimagen": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=500&q=80",
+      "imagenPrincipal": "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?auto=format&fit=crop&w=800&q=80",
+      "galeria": [
+        "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=400&q=80"
+      ],
+      "integrantes": [
+        {
+          "nombre": "Lucas Rodríguez",
+          "foto": "https://i.pravatar.cc/150?img=12"
+        }
+      ],
+      "urlPdf": "#",
+      "urlVideo": "#",
+      "urlGithub": "https://github.com",
+      "urlYoutube": "https://youtube.com"
+    },
+    {
+      "id": "201",
+      "tecnicaturaId": "2",
+      "nombreTecnicatura": "Tecnicatura en Mecatrónica",
+      "titulo": "Brazo Robótico para Clasificación de Piezas",
+      "autores": [
+        "Martín Acosta",
+        "Camila Benítez"
+      ],
+      "anio": 2024,
+      "tema": "Robótica Industrial",
+      "resumen": "Brazo robótico de cuatro ejes controlado por microcontrolador que clasifica piezas por color y tamaño mediante visión artificial básica.",
+      "vistas": 287,
+      "fecha": "22 de Octubre, 2024",
+      "miniaturaimagen": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=500&q=80",
+      "imagenPrincipal": "https://images.unsplash.com/photo-1563770660941-20978e870e26?auto=format&fit=crop&w=800&q=80",
+      "galeria": [
+        "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=400&q=80",
+        "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=400&q=80"
+      ],
+      "integrantes": [
+        {
+          "nombre": "Martín Acosta",
+          "foto": "https://i.pravatar.cc/150?img=13"
+        },
+        {
+          "nombre": "Camila Benítez",
+          "foto": "https://i.pravatar.cc/150?img=47"
+        }
+      ],
+      "urlPdf": "#",
+      "urlVideo": "#",
+      "urlGithub": "https://github.com",
+      "urlYoutube": "https://youtube.com"
+    },
+    {
+      "id": "202",
+      "tecnicaturaId": "2",
+      "nombreTecnicatura": "Tecnicatura en Mecatrónica",
+      "titulo": "Sistema de Riego Automatizado con Sensores de Humedad",
+      "autores": [
+        "Facundo Medina"
+      ],
+      "anio": 2023,
+      "tema": "Automatización",
+      "resumen": "Sistema de riego controlado por sensores de humedad y temperatura que optimiza el consumo de agua en huertas urbanas.",
+      "vistas": 198,
+      "fecha": "05 de Diciembre, 2023",
+      "miniaturaimagen": "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?auto=format&fit=crop&w=500&q=80",
+      "imagenPrincipal": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?auto=format&fit=crop&w=800&q=80",
+      "galeria": [
+        "https://images.unsplash.com/photo-1516253593875-bd7ba052fbc5?auto=format&fit=crop&w=400&q=80"
+      ],
+      "integrantes": [
+        {
+          "nombre": "Facundo Medina",
+          "foto": "https://i.pravatar.cc/150?img=14"
+        }
+      ],
+      "urlPdf": "#",
+      "urlVideo": "#",
+      "urlGithub": "https://github.com",
+      "urlYoutube": "https://youtube.com"
+    },
+    {
+      "id": "301",
+      "tecnicaturaId": "3",
+      "nombreTecnicatura": "Tecnicatura en Programación en Videojuegos",
+      "titulo": "Juego de Plataformas 2D con Generación Procedural de Niveles",
+      "autores": [
+        "Tomás Herrera",
+        "Valentina Ruiz"
+      ],
+      "anio": 2024,
+      "tema": "Desarrollo de Videojuegos",
+      "resumen": "Videojuego de plataformas 2D desarrollado en Unity cuyos niveles se generan de forma procedural, con dificultad adaptativa según el desempeño del jugador.",
+      "vistas": 421,
+      "fecha": "28 de Noviembre, 2024",
+      "miniaturaimagen": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=500&q=80",
+      "imagenPrincipal": "https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&w=800&q=80",
+      "galeria": [
+        "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?auto=format&fit=crop&w=400&q=80",
+        "https://images.unsplash.com/photo-1552820728-8b83bb6b773f?auto=format&fit=crop&w=400&q=80"
+      ],
+      "integrantes": [
+        {
+          "nombre": "Tomás Herrera",
+          "foto": "https://i.pravatar.cc/150?img=15"
+        },
+        {
+          "nombre": "Valentina Ruiz",
+          "foto": "https://i.pravatar.cc/150?img=44"
+        }
+      ],
+      "urlPdf": "#",
+      "urlVideo": "#",
+      "urlGithub": "https://github.com",
+      "urlYoutube": "https://youtube.com"
+    },
+    {
+      "id": "302",
+      "tecnicaturaId": "3",
+      "nombreTecnicatura": "Tecnicatura en Programación en Videojuegos",
+      "titulo": "Juego Educativo en Realidad Virtual sobre Historia Argentina",
+      "autores": [
+        "Nicolás Paz"
+      ],
+      "anio": 2023,
+      "tema": "Realidad Virtual",
+      "resumen": "Experiencia inmersiva en realidad virtual que permite recorrer escenarios históricos argentinos y resolver desafíos para reforzar el aprendizaje escolar.",
+      "vistas": 365,
+      "fecha": "14 de Diciembre, 2023",
+      "miniaturaimagen": "https://images.unsplash.com/photo-1593508512255-86ab42a8e620?auto=format&fit=crop&w=500&q=80",
+      "imagenPrincipal": "https://images.unsplash.com/photo-1622979135225-d2ba269bc1df?auto=format&fit=crop&w=800&q=80",
+      "galeria": [
+        "https://images.unsplash.com/photo-1535223289827-42f1e9919769?auto=format&fit=crop&w=400&q=80"
+      ],
+      "integrantes": [
+        {
+          "nombre": "Nicolás Paz",
+          "foto": "https://i.pravatar.cc/150?img=16"
+        }
+      ],
+      "urlPdf": "#",
+      "urlVideo": "#",
+      "urlGithub": "https://github.com",
+      "urlYoutube": "https://youtube.com"
+    },
+    {
+      "id": "401",
+      "tecnicaturaId": "4",
+      "nombreTecnicatura": "Tecnicatura en Higiene y Seguridad",
+      "titulo": "Plan de Prevención de Riesgos en una Planta Metalúrgica",
+      "autores": [
+        "Gabriela Torres",
+        "Sebastián Luna"
+      ],
+      "anio": 2024,
+      "tema": "Prevención de Riesgos Laborales",
+      "resumen": "Relevamiento de riesgos, matriz de peligros y plan de acción preventivo para una planta metalúrgica, con propuestas de capacitación y señalización.",
+      "vistas": 254,
+      "fecha": "08 de Noviembre, 2024",
+      "miniaturaimagen": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=500&q=80",
+      "imagenPrincipal": "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80",
+      "galeria": [
+        "https://images.unsplash.com/photo-1541888946425-d0fbb18f248e?auto=format&fit=crop&w=400&q=80",
+        "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=400&q=80"
+      ],
+      "integrantes": [
+        {
+          "nombre": "Gabriela Torres",
+          "foto": "https://i.pravatar.cc/150?img=45"
+        },
+        {
+          "nombre": "Sebastián Luna",
+          "foto": "https://i.pravatar.cc/150?img=17"
+        }
+      ],
+      "urlPdf": "#",
+      "urlVideo": "#",
+      "urlGithub": "https://github.com",
+      "urlYoutube": "https://youtube.com"
+    },
+    {
+      "id": "402",
+      "tecnicaturaId": "4",
+      "nombreTecnicatura": "Tecnicatura en Higiene y Seguridad",
+      "titulo": "Evaluación Ergonómica de Puestos de Trabajo en Oficinas",
+      "autores": [
+        "Rocío Fernández"
+      ],
+      "anio": 2023,
+      "tema": "Ergonomía",
+      "resumen": "Análisis ergonómico de puestos administrativos con propuestas de mejora para reducir trastornos musculoesqueléticos y fatiga visual.",
+      "vistas": 176,
+      "fecha": "19 de Noviembre, 2023",
+      "miniaturaimagen": "https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=500&q=80",
+      "imagenPrincipal": "https://images.unsplash.com/photo-1524758631624-e2822e304c36?auto=format&fit=crop&w=800&q=80",
+      "galeria": [
+        "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=400&q=80"
+      ],
+      "integrantes": [
+        {
+          "nombre": "Rocío Fernández",
+          "foto": "https://i.pravatar.cc/150?img=48"
+        }
+      ],
+      "urlPdf": "#",
+      "urlVideo": "#",
+      "urlGithub": "https://github.com",
+      "urlYoutube": "https://youtube.com"
+    },
+    {
+      "id": "501",
+      "tecnicaturaId": "5",
+      "nombreTecnicatura": "Tecnicatura en Logística",
+      "titulo": "Optimización de Rutas de Distribución para una Cadena de Supermercados",
+      "autores": [
+        "Daniel Quiroga",
+        "Lucía Maldonado"
+      ],
+      "anio": 2024,
+      "tema": "Distribución y Transporte",
+      "resumen": "Modelo de optimización de rutas de reparto que reduce costos de combustible y tiempos de entrega en una red de supermercados regionales.",
+      "vistas": 233,
+      "fecha": "12 de Noviembre, 2024",
+      "miniaturaimagen": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=500&q=80",
+      "imagenPrincipal": "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&w=800&q=80",
+      "galeria": [
+        "https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=400&q=80",
+        "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=400&q=80"
+      ],
+      "integrantes": [
+        {
+          "nombre": "Daniel Quiroga",
+          "foto": "https://i.pravatar.cc/150?img=18"
+        },
+        {
+          "nombre": "Lucía Maldonado",
+          "foto": "https://i.pravatar.cc/150?img=49"
+        }
+      ],
+      "urlPdf": "#",
+      "urlVideo": "#",
+      "urlGithub": "https://github.com",
+      "urlYoutube": "https://youtube.com"
+    },
+    {
+      "id": "502",
+      "tecnicaturaId": "5",
+      "nombreTecnicatura": "Tecnicatura en Logística",
+      "titulo": "Rediseño del Layout y Gestión de Inventario en un Depósito",
+      "autores": [
+        "Agustina Vega"
+      ],
+      "anio": 2023,
+      "tema": "Gestión de Almacenes",
+      "resumen": "Propuesta de rediseño del layout de un depósito y de un sistema de control de stock con clasificación ABC para mejorar la rotación y reducir faltantes.",
+      "vistas": 189,
+      "fecha": "30 de Noviembre, 2023",
+      "miniaturaimagen": "https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=500&q=80",
+      "imagenPrincipal": "https://images.unsplash.com/photo-1587293852726-70cdb56c2866?auto=format&fit=crop&w=800&q=80",
+      "galeria": [
+        "https://images.unsplash.com/photo-1616401784845-180882ba9ba8?auto=format&fit=crop&w=400&q=80"
+      ],
+      "integrantes": [
+        {
+          "nombre": "Agustina Vega",
+          "foto": "https://i.pravatar.cc/150?img=41"
+        }
+      ],
+      "urlPdf": "#",
+      "urlVideo": "#",
+      "urlGithub": "https://github.com",
+      "urlYoutube": "https://youtube.com"
+    },
+    {
+      "id": "601",
+      "tecnicaturaId": "6",
+      "nombreTecnicatura": "Tecnicatura en Mantenimiento Industrial",
+      "titulo": "Plan de Mantenimiento Predictivo para Motores Eléctricos mediante Análisis de Vibraciones",
+      "autores": [
+        "Emiliano Soria",
+        "Julieta Navarro"
+      ],
+      "anio": 2024,
+      "tema": "Mantenimiento Predictivo",
+      "resumen": "Implementación de monitoreo de vibraciones y temperatura en motores eléctricos para anticipar fallas y reducir paradas no programadas de producción.",
+      "vistas": 301,
+      "fecha": "03 de Diciembre, 2024",
+      "miniaturaimagen": "https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=500&q=80",
+      "imagenPrincipal": "https://images.unsplash.com/photo-1581092580497-e0d23cbdf1dc?auto=format&fit=crop&w=800&q=80",
+      "galeria": [
+        "https://images.unsplash.com/photo-1537462715879-363eab617c3e?auto=format&fit=crop&w=400&q=80",
+        "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=400&q=80"
+      ],
+      "integrantes": [
+        {
+          "nombre": "Emiliano Soria",
+          "foto": "https://i.pravatar.cc/150?img=19"
+        },
+        {
+          "nombre": "Julieta Navarro",
+          "foto": "https://i.pravatar.cc/150?img=43"
+        }
+      ],
+      "urlPdf": "#",
+      "urlVideo": "#",
+      "urlGithub": "https://github.com",
+      "urlYoutube": "https://youtube.com"
+    },
+    {
+      "id": "602",
+      "tecnicaturaId": "6",
+      "nombreTecnicatura": "Tecnicatura en Mantenimiento Industrial",
+      "titulo": "Implementación de Mantenimiento Productivo Total (TPM) en una Línea de Embotellado",
+      "autores": [
+        "Bruno Castro"
+      ],
+      "anio": 2023,
+      "tema": "Gestión del Mantenimiento",
+      "resumen": "Aplicación de la metodología TPM en una línea de embotellado, con indicadores de efectividad global del equipo (OEE) y rutinas de mantenimiento autónomo.",
+      "vistas": 214,
+      "fecha": "17 de Noviembre, 2023",
+      "miniaturaimagen": "https://images.unsplash.com/photo-1565793298595-6a879b1d9492?auto=format&fit=crop&w=500&q=80",
+      "imagenPrincipal": "https://images.unsplash.com/photo-1581092335397-9583fe92d232?auto=format&fit=crop&w=800&q=80",
+      "galeria": [
+        "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=400&q=80"
+      ],
+      "integrantes": [
+        {
+          "nombre": "Bruno Castro",
+          "foto": "https://i.pravatar.cc/150?img=20"
+        }
+      ],
+      "urlPdf": "#",
+      "urlVideo": "#",
+      "urlGithub": "https://github.com",
+      "urlYoutube": "https://youtube.com"
+    },
+    {
+      "id": "701",
+      "tecnicaturaId": "7",
+      "nombreTecnicatura": "Tecnicatura en Energía Sustentable",
+      "titulo": "Diseño de un Sistema Fotovoltaico Autónomo para una Escuela Rural",
+      "autores": [
+        "Ivana Sosa",
+        "Matías Ledesma"
+      ],
+      "anio": 2024,
+      "tema": "Energía Solar",
+      "resumen": "Dimensionamiento e instalación de un sistema solar fotovoltaico con baterías que abastece de electricidad a una escuela rural sin acceso a la red.",
+      "vistas": 392,
+      "fecha": "25 de Noviembre, 2024",
+      "miniaturaimagen": "https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=500&q=80",
+      "imagenPrincipal": "https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=500&q=80",
+      "galeria": [
+        "https://images.unsplash.com/photo-1497435334941-8c899ee9e8e9?auto=format&fit=crop&w=400&q=80",
+        "https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&fit=crop&w=400&q=80"
+      ],
+      "integrantes": [
+        {
+          "nombre": "Ivana Sosa",
+          "foto": "https://i.pravatar.cc/150?img=42"
+        },
+        {
+          "nombre": "Matías Ledesma",
+          "foto": "https://i.pravatar.cc/150?img=21"
+        }
+      ],
+      "urlPdf": "#",
+      "urlVideo": "#",
+      "urlGithub": "https://github.com",
+      "urlYoutube": "https://youtube.com"
+    },
+    {
+      "id": "702",
+      "tecnicaturaId": "7",
+      "nombreTecnicatura": "Tecnicatura en Energía Sustentable",
+      "titulo": "Aprovechamiento de Biomasa Residual para la Generación de Biogás",
+      "autores": [
+        "Carolina Ibarra"
+      ],
+      "anio": 2023,
+      "tema": "Bioenergía",
+      "resumen": "Diseño de un biodigestor que transforma residuos orgánicos agroindustriales en biogás para uso térmico, con análisis de factibilidad económica.",
+      "vistas": 226,
+      "fecha": "08 de Diciembre, 2023",
+      "miniaturaimagen": "https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?auto=format&fit=crop&w=500&q=80",
+      "imagenPrincipal": "https://images.unsplash.com/photo-1532601224476-15c79f2f7a51?auto=format&fit=crop&w=800&q=80",
+      "galeria": [
+        "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=400&q=80"
+      ],
+      "integrantes": [
+        {
+          "nombre": "Carolina Ibarra",
+          "foto": "https://i.pravatar.cc/150?img=46"
+        }
+      ],
+      "urlPdf": "#",
+      "urlVideo": "#",
+      "urlGithub": "https://github.com",
+      "urlYoutube": "https://youtube.com"
+    }
+  ]
+}
