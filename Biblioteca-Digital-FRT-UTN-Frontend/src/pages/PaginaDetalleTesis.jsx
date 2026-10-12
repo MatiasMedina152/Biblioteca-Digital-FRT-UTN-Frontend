@@ -95,8 +95,8 @@ export const PaginaDetalleTesis = () => {
                       <Image
                         src={integrante.foto}
                         roundedCircle
-                        width={70}
-                        height={70}
+                        width={100}
+                        height={100}
                         className="integrante-imagen me-2"
                       />
                       <span>{integrante.nombre}</span>

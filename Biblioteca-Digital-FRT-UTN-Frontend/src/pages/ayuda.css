@@ -1,13 +1,11 @@
 /*título principal*/
 .titulo-ayuda {
-    padding: 35px 20px;
-    background: linear-gradient(135deg, var(--color-secundario), var(--color-superficie));
+    background: linear-gradient(170deg, var(--color-secundario)10%, var(--color-primario)90%);
     box-shadow: var(--sombra-card);
 }
 
 .titulo-ayuda h1 {
     color: var(--color-blanco);
-    font-size: 3.5rem;
 }
 
 .titulo-ayuda p {
@@ -20,7 +18,7 @@
 .titulo-seccion {
     background: linear-gradient(90deg, var(--color-primario), var(--color-superficie));
     color: var(--color-secundario);
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin-bottom: 25px;
 }
 
@@ -65,13 +63,9 @@
 
 /*formulario*/
 .formulario-ayuda {
-    background-color: var(--color-superficie);
+    background: linear-gradient(135deg, var(--color-primario), var(--color-superficie));
     padding: 35px;
     box-shadow: var(--sombra-card);
-}
-
-.texto-formulario {
-    color: var(--color-texto-suave);
 }
 
 /*label*/

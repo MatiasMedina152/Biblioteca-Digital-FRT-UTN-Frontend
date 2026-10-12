@@ -14,7 +14,7 @@ function Inicio() {
       <CarruselInicio/>
       
      
-      <div className="container mt-5 mb-5">
+      <div className="container-inicio container mt-5 mb-5 text-white p-5 rounded-5">
         <div className="row align-items-center">
           
           <div className="col-md-5 mb-4 mb-md-0">
@@ -30,6 +30,12 @@ function Inicio() {
               capacitados para impulsar la innovación, la tecnología y el desarrollo industrial de nuestra 
               región y del país.
             </p>
+
+            <Link 
+              to="https://frt.utn.edu.ar/"
+              className="btn mt-3 fw-bold px-4 py-2 inicio-btn text-white">
+              Conocer más
+            </Link>
           </div>
 
         </div>
@@ -37,7 +43,7 @@ function Inicio() {
       
 
 
-      <div className="container py-5 mb-5">
+      <div className="container-inicio container py-5 mb-5 text-white p-5 rounded-5">
         <div className="row align-items-center">
           
           <div className="col-md-5 mb-4 mb-md-0">
@@ -55,9 +61,9 @@ function Inicio() {
             </p>
             
             <Link 
-              to="/carreras" 
-              className="btn mt-3 fw-bold px-4 py-2 inicio-btn">
-              Explorar Tesis
+              to="/tecnicaturas" 
+              className="inicio-btn btn mt-3 fw-bold px-4 py-2 inicio-btn text-white">
+              Explorar
             </Link>
           </div>
 
@@ -65,28 +71,19 @@ function Inicio() {
       </div>
       
       
-      <div className="container py-5 mb-5 text-white">
-        
-        
-        <div className="d-flex flex-column flex-md-row justify-content-between align-items-md-end mb-4 border-bottom border-secondary pb-3">
+      <div className="container justify-content-center py-5 mb-5">
+        <div className="d-flex flex-column align-items-center text-center mb-4 border-bottom border-secondary pb-3">
           <div>
-            <h2 className="fw-bold mb-2">Quines somos</h2>
+            <h1 className="fw-bold mb-2" id='nosotros'>Quienes somos</h1>
             <p className="mb-0">Las personas detrás de las ideas.</p>
-          </div>
-          <div className="mt-2 mt-md-0">
-            <span className="fw-bold text-uppercase fs-6" style={{ color: 'var(--color-secundario)' }}>
-              Promoción 2026
-            </span>
           </div>
         </div>
 
-       
         <div className="row g-4 mt-2">
-          
           
           <div className="col-md-4">
             
-            <Card bg="dark" border="secondary" className="h-100 rounded-4 overflow-hidden card-hover-neon">
+            <Card border="secondary" className="tarjeta h-100 rounded-4 overflow-hidden card-hover-neon">
               <Card.Img 
                 variant="top" 
                 src={dev1} 
@@ -94,7 +91,7 @@ function Inicio() {
                 alt="Foto Desarrollador 1" 
               />
               <Card.Body className="p-4 text-white">
-                <Card.Title className="fw-bold fs-4 m-0">Matias Rosales</Card.Title>
+                <Card.Title className="fw-bold fs-4 m-0">Matias José A. Rosales</Card.Title>
                 
                 
                 <p className="fw-bold mb-3 mt-1" style={{ color: 'var(--color-secundario)', fontSize: '0.9rem' }}>
@@ -102,7 +99,7 @@ function Inicio() {
                 </p>
                 
                 
-                <Card.Text className="text-secondary">
+                <Card.Text className="text-secondary text-white">
                   Diseñador y Desarrollador UI/UX. 
                   Responsable de la identidad visual de la plataforma, el sistema de diseño responsivo con React-Bootstrap y de garantizar
                   que la búsqueda y visualización de tesis sea accesible, intuitiva y atractiva para toda la comunidad de la UTN-FRT.
@@ -113,7 +110,7 @@ function Inicio() {
 
          
           <div className="col-md-4">
-            <Card bg="dark" border="secondary" className="h-100 rounded-4 overflow-hidden card-hover-neon">
+            <Card border="secondary" className="tarjeta h-100 rounded-4 overflow-hidden card-hover-neon">
               <Card.Img 
                 variant="top" 
                 src={dev2} 
@@ -121,11 +118,11 @@ function Inicio() {
                 alt="Foto Desarrollador 2" 
               />
               <Card.Body className="p-4 text-white">
-                <Card.Title className="fw-bold fs-4 m-0">Matias Medina</Card.Title>
+                <Card.Title className="fw-bold fs-4 m-0">Matias E. Medina</Card.Title>
                 <p className="fw-bold mb-3 mt-1" style={{ color: 'var(--color-secundario)', fontSize: '0.9rem' }}>
                   Programación · Promoción 2026
                 </p>
-                <Card.Text className="text-secondary">
+                <Card.Text className="text-secondary text-white">
                   Especialista en Ciberseguridad y QA. Dedicado a proteger la integridad del repositorio, asegurar el proceso de carga de archivos de tesis, implementar el sistema de autenticación de estudiantes/profesores y realizar las pruebas de calidad de la plataforma.
                 </Card.Text>
               </Card.Body>
@@ -134,7 +131,7 @@ function Inicio() {
 
          
           <div className="col-md-4">
-            <Card bg="dark" border="secondary" className="h-100 rounded-4 overflow-hidden card-hover-neon">
+            <Card border="secondary" className="tarjeta h-100 rounded-4 overflow-hidden card-hover-neon">
               <Card.Img 
                 variant="top" 
                 src={dev3} 
@@ -146,7 +143,7 @@ function Inicio() {
                 <p className="fw-bold mb-3 mt-1" style={{ color: 'var(--color-secundario)', fontSize: '0.9rem' }}>
                   Programación · Promoción 2026
                 </p>
-                <Card.Text className="text-secondary">
+                <Card.Text className="text-secondary text-white">
                  Desarrollador Fullstack. Encargado de la lógica de funcionamiento del repositorio, la gestión de la base de datos de los proyectos finales y de implementar los filtros de búsqueda avanzada por carrera para que encontrar cualquier tesis sea rápido y eficiente.
                 </Card.Text>
               </Card.Body>

@@ -48,11 +48,11 @@ export const PaginaTecnicaturas = () => {
                     style={{ height: "180px", objectFit: "cover" }}
                   />
                   <Card.Body className="d-flex flex-column">
-                    <Card.Title>{tecnicatura.nombre}</Card.Title>
-                    <Card.Text className="flex-grow-1">
+                    <Card.Title className='card-titulo'>{tecnicatura.nombre}</Card.Title>
+                    <Card.Text className="flex-grow-1 text-white">
                       {tecnicatura.descripcion}
                     </Card.Text>
-                    <p className="fw-bold mb-3">
+                    <p className="fw-bold mb-3 text-white">
                       Cantidad de Tesis:{" "}
                       <span className="badge bg-danger">
                         {tecnicatura.cantidadTesis}

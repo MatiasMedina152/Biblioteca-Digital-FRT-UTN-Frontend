@@ -5,25 +5,27 @@
 }
 
 :root {
-    --color-primario: #1e293b;
+    --color-primario: #172554;
     --color-superficie: #334155;
     --color-primario-suave: #64748b;
     --color-secundario: #ff7700;
-    --color-terciario: #fd4848;
     --color-btn: #f97b21;
     --color-blanco: #ffffff;
     --color-texto-suave: #cbd5e1;
     --sombra-card: 0 10px 20px rgba(0, 0, 0, 0.3);
-    --neon: 0 0 1rem #ff7700;
+    --neon: 0 0 .5rem #ff7700;
 }
 
 html, body {
-    background-color: var(--color-primario-suave);
+    background-image: url('/src/IMG/fondo-pagina.jpg');
+    background-size: cover;
+    color: var(--color-primario);
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5, .card-titulo {
     font-family: "Merriweather", sans-serif;
     font-weight: bold;
+    color: var(--color-secundario);
 }
 
 p {
@@ -33,11 +35,10 @@ p {
 /* Tecnicaturas */
 
 .tecnicaturas-titulo {
-    color: var(--color-secundario);
+    color: var(--color-primario);
 }
 
 .card-tecnicaturas {
-    color: var(--color-blanco);
     background-color: var(--color-superficie);
     border: 2px solid var(--color-secundario);
 }
