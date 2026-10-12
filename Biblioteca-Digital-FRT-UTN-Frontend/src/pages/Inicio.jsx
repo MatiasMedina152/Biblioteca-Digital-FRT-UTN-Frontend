@@ -55,7 +55,7 @@ function Inicio() {
             </p>
             
             <Link 
-              to="/carreras" 
+              to="/tecnicaturas" 
               className="btn mt-3 fw-bold px-4 py-2 inicio-btn">
               Explorar Tesis
             </Link>

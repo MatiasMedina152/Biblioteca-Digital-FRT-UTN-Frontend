@@ -2,8 +2,9 @@ import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { Container, Row, Col, Card, Button, Carousel, Image, Badge, Spinner } from 'react-bootstrap';
 import Swal from 'sweetalert2';
-import { obtenerTesisPorId } from '../sevice/servicioTesis';
+import { obtenerTesisPorId } from '../services/servicioTesis';
 import "../App.css";
+import "../components/styles-components/PaginaDetalleTesis.css";
 
 export const PaginaDetalleTesis = () => {
   const { tesisId } = useParams();

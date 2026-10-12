@@ -2,10 +2,11 @@ import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Container, Row, Col, Card, Button, Spinner } from 'react-bootstrap';
 import Swal from 'sweetalert2';
-import { obtenerTesisPorTecnicatura } from '../sevice/servicioTesis';
-import { obtenerTecnicaturaPorId } from '../sevice/servicioTecnicaturas';
+import { obtenerTesisPorTecnicatura } from '../services/servicioTesis';
+import { obtenerTecnicaturaPorId } from '../services/servicioTecnicaturas';
 import { BarraFiltrosTesis } from '../components/BarraFiltrosTesis';
 import "../App.css";
+import "../components/styles-components/PaginaTesisCarrera.css";
 
 export const PaginaTesisCarrera = () => {
   const { tecnicaturaId } = useParams();
