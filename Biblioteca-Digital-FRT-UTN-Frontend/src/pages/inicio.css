@@ -1,0 +1,35 @@
+
+.inicio-titulo {
+  color: var(--color-blanco);
+  border-color: var(--color-secundario) !important; 
+}
+
+.inicio-btn {
+  background-color: var(--color-btn);
+  color: var(--color-blanco);
+  border: none;
+  box-shadow: var(--sombra-card);
+  transition: all 0.3s ease; 
+}
+
+.inicio-btn:hover {
+  color: var(--color-blanco);
+  box-shadow: var(--neon);
+}
+
+
+.img-dev-custom {
+  height: 240px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.card-hover-neon {
+  box-shadow: var(--sombra-card);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-hover-neon:hover {
+  transform: translateY(-8px);
+  box-shadow: var(--neon); 
+}
