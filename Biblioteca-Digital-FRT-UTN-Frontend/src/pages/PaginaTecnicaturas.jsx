@@ -2,8 +2,9 @@ import { useState, useEffect } from 'react';
 import { Container, Row, Col, Card, Button, Spinner } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Swal from 'sweetalert2';
-import { obtenerTecnicaturas } from '../sevice/servicioTecnicaturas';
+import { obtenerTecnicaturas } from '../services/servicioTecnicaturas';
 import "../App.css";
+import "../components/styles-components/PaginaTecnicaturas.css";
 
 export const PaginaTecnicaturas = () => {
   const [tecnicaturas, setTecnicaturas] = useState([]);
