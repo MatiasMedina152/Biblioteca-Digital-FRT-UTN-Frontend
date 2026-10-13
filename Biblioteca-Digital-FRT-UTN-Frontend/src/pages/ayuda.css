@@ -1,14 +1,14 @@
 /*título principal*/
 .titulo-ayuda {
   background: linear-gradient(
-    170deg,
+    177deg,
     var(--color-secundario) 10%,
-    var(--color-primario) 90%
+    var(--color-primario) 80%
   );
   box-shadow: var(--sombra-card);
 }
 
-/*títuo de sección*/
+/*título de sección*/
 .titulo-seccion {
   background: linear-gradient(
     90deg,
@@ -25,37 +25,22 @@
   overflow: hidden;
 }
 
-.acordeon-ayuda .accordion-button {
+.acordeon-ayuda .accordion-button,
+.acordeon-ayuda .accordion-button:not(.collapsed) {
   color: var(--color-blanco);
   background: linear-gradient(
     90deg,
     var(--color-primario),
     var(--color-superficie)
   );
-  padding: 18px 20px;
 }
 
 .acordeon-ayuda .accordion-button:hover {
   color: var(--color-secundario);
 }
 
-.acordeon-ayuda .accordion-button:not(.collapsed) {
-  color: var(--color-blanco);
-
-  background: linear-gradient(
-    90deg,
-    var(--color-secundario),
-    var(--color-primario)
-  );
-}
-
 .acordeon-ayuda .accordion-button:focus {
   box-shadow: none;
-}
-
-.acordeon-ayuda .accordion-body {
-  color: var(--color-texto-suave);
-  background-color: var(--color-superficie);
 }
 
 /*formulario*/
@@ -66,12 +51,6 @@
     var(--color-superficie)
   );
   box-shadow: var(--sombra-card);
-}
-
-/*label*/
-.formulario-ayuda .form-label {
-  color: var(--color-blanco);
-  font-weight: 500;
 }
 
 /*inputs*/
@@ -102,7 +81,7 @@
 
 .formulario-ayuda .form-select:focus {
   border-color: var(--color-secundario);
-  box-shadow: 0 0 0 0.2rem rgba(255, 119, 0, 0.25);
+  box-shadow: 0 0 0 .2rem rgba(255, 119, 0, 0.25);
 }
 
 /* Opciones del select */
@@ -117,19 +96,18 @@
 .btn-enviar {
   background-color: var(--color-secundario);
   border-color: var(--color-secundario);
-  color: var(--color-primario);
   transition: all 0.3s ease;
 }
 
 .btn-enviar:hover {
   background-color: var(--color-secundario);
   border-color: var(--color-blanco);
-  color: var(--color-blanco);
   box-shadow: 0 0 0.6rem var(--color-secundario);
 }
 
-.btn-enviar:focus {
+.btn-enviar:active,
+.btn-enviar:focus,
+.btn-enviar:focus:active{
   background-color: var(--color-btn);
   border-color: var(--color-btn);
-  box-shadow: 0 0 0 0.2rem rgba(255, 119, 0, 0.25);
 }
