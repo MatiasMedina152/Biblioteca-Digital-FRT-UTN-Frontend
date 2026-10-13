@@ -1,0 +1,36 @@
+/* tecnicaturas-tesis */
+.car-tesis,
+.card-filtro,
+.alert-warning {
+  background-color: var(--color-superficie);
+  border: 2px solid var(--color-secundario);
+}
+
+.card-img-top {
+  border-bottom: 2px solid var(--color-secundario);
+}
+
+.card-titulo-tesis {
+  color: var(--color-secundario);
+}
+
+/* Tesis buscador */
+
+.form-control:focus,
+.form-select:focus {
+  color: var(--color-blanco);
+  background-color: var(--color-primario);
+  border-color: var(--color-secundario);
+  box-shadow: 0 0 0 0.2rem rgba(255, 119, 0, 0.25);
+}
+
+.tema,
+.anio,
+.form-control {
+  background-color: var(--color-primario);
+  border: 1px solid var(--color-primario-suave);
+}
+
+.form-control::placeholder {
+  color: var(--color-texto-suave);
+}

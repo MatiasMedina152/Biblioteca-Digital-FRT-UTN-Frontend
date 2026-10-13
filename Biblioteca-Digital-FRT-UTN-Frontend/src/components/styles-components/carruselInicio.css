@@ -1,0 +1,5 @@
+.img-carrusel-custom {
+  height: 450px;
+  object-fit: cover;
+  filter: brightness(100%);
+}
