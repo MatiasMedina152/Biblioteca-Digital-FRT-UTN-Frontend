@@ -14,20 +14,11 @@
   color: var(--color-secundario);
 }
 
-.navbar .nav-link:hover {
-  color: var(--color-secundario);
-}
-
 /*brand*/
 .navbar .navbar-brand {
   color: var(--color-secundario);
-  font-size: x-large;
   font-family: "Merriweather";
   transition: color 0.3s ease;
-}
-
-.navbar .navbar-brand:hover {
-  color: var(--color-blanco);
 }
 
 /*menu hamburguesa*/

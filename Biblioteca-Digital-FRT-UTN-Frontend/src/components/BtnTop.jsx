@@ -32,7 +32,7 @@ function BotonVolverArriba() {
 
   return (
     <Button
-      className="btn-volver-arriba"
+      className="btn-volver-arriba d-flex align-items-center justify-content-center rounded-5"
       onClick={volverArriba}
       aria-label="Volver al inicio de la página"
       title="Volver arriba"
