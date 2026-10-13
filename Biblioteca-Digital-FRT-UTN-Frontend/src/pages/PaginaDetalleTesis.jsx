@@ -1,8 +1,18 @@
-import { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
-import { Container, Row, Col, Card, Button, Carousel, Image, Badge, Spinner } from 'react-bootstrap';
-import Swal from 'sweetalert2';
-import { obtenerTesisPorId } from '../services/servicioTesis';
+import { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
+import {
+  Container,
+  Row,
+  Col,
+  Card,
+  Button,
+  Carousel,
+  Image,
+  Badge,
+  Spinner,
+} from "react-bootstrap";
+import Swal from "sweetalert2";
+import { obtenerTesisPorId } from "../services/servicioTesis";
 import "../App.css";
 import "../components/styles-components/PaginaDetalleTesis.css";
 
@@ -83,10 +93,10 @@ export const PaginaDetalleTesis = () => {
               <Badge bg="danger">Año: {tesis.anio}</Badge>
             </div>
 
-            <Card className="integrantes mb-3">
+            <Card className="integrantes mb-3 text-white">
               <Card.Header as="h6">Integrantes del Proyecto</Card.Header>
               <Card.Body>
-                <Row>
+                <Row className="text-white">
                   {tesis.integrantes.map((integrante, indice) => (
                     <Col
                       key={indice}
@@ -96,8 +106,8 @@ export const PaginaDetalleTesis = () => {
                       <Image
                         src={integrante.foto}
                         roundedCircle
-                        width={70}
-                        height={70}
+                        width={100}
+                        height={100}
                         className="integrante-imagen me-2"
                       />
                       <span>{integrante.nombre}</span>
@@ -107,7 +117,7 @@ export const PaginaDetalleTesis = () => {
               </Card.Body>
             </Card>
 
-            <Card className="redes shadow-sm">
+            <Card className="redes shadow-sm text-white">
               <Card.Header as="h6">Documentación y Enlaces</Card.Header>
               <Card.Body className="d-flex flex-wrap gap-2">
                 <Button variant="dark" href={tesis.urlPdf} target="_blank">
@@ -116,18 +126,10 @@ export const PaginaDetalleTesis = () => {
                 <Button variant="dark" href={tesis.urlVideo} target="_blank">
                   Ver Video
                 </Button>
-                <Button
-                  variant="dark"
-                  href={tesis.urlGithub}
-                  target="_blank"
-                >
+                <Button variant="dark" href={tesis.urlGithub} target="_blank">
                   GitHub
                 </Button>
-                <Button
-                  variant="dark"
-                  href={tesis.urlYoutube}
-                  target="_blank"
-                >
+                <Button variant="dark" href={tesis.urlYoutube} target="_blank">
                   YouTube
                 </Button>
               </Card.Body>
@@ -137,7 +139,7 @@ export const PaginaDetalleTesis = () => {
 
         <Row className="mt-4">
           <Col md={12}>
-            <Card className="descripcion-proyecto shadow-sm">
+            <Card className="descripcion-proyecto shadow-sm text-white">
               <Card.Header as="h5">Descripción del Proyecto</Card.Header>
               <Card.Body>
                 <Card.Text>{tesis.resumen}</Card.Text>

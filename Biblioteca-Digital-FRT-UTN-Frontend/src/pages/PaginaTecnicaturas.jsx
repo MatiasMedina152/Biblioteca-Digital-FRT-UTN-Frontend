@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
-import { Container, Row, Col, Card, Button, Spinner } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
-import Swal from 'sweetalert2';
-import { obtenerTecnicaturas } from '../services/servicioTecnicaturas';
+import { useState, useEffect } from "react";
+import { Container, Row, Col, Card, Button, Spinner } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import Swal from "sweetalert2";
+import { obtenerTecnicaturas } from "../services/servicioTecnicaturas";
 import "../App.css";
 import "../components/styles-components/PaginaTecnicaturas.css";
 
@@ -32,7 +32,9 @@ export const PaginaTecnicaturas = () => {
   return (
     <div className="d-flex flex-column min-vh-100">
       <Container className="my-4 flex-grow-1">
-        <h1 className="tecnicaturas-titulo mb-4 text-center">Tecnicaturas Disponibles</h1>
+        <h1 className="tecnicaturas-titulo mb-4 text-center">
+          Tecnicaturas Disponibles
+        </h1>
 
         {cargando ? (
           <div className="text-center my-5">
@@ -42,14 +44,16 @@ export const PaginaTecnicaturas = () => {
           <Row>
             {tecnicaturas.map((tecnicatura) => (
               <Col key={tecnicatura.id} md={4} className="mb-4">
-                <Card className="card-tecnicaturas h-100 shadow-sm">
+                <Card className="card-tecnicaturas text-white h-100 shadow-sm">
                   <Card.Img
                     variant="top"
                     src={tecnicatura.imagen}
                     style={{ height: "180px", objectFit: "cover" }}
                   />
                   <Card.Body className="d-flex flex-column">
-                    <Card.Title>{tecnicatura.nombre}</Card.Title>
+                    <Card.Title className="card-titulo">
+                      {tecnicatura.nombre}
+                    </Card.Title>
                     <Card.Text className="flex-grow-1">
                       {tecnicatura.descripcion}
                     </Card.Text>

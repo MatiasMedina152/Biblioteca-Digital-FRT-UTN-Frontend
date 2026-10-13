@@ -1,0 +1,13 @@
+.footer {
+  background: linear-gradient(135deg,#0f172a,#172554,#334155);
+}
+
+.link-footer{
+  display: inline-block;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.link-footer:hover{
+  color: var(--color-secundario) !important;
+  transform: translateX(3px);
+}

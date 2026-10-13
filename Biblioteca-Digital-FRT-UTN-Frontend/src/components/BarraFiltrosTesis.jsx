@@ -3,7 +3,7 @@ import { Card, Form, Button } from 'react-bootstrap';
 
 export const BarraFiltrosTesis = ({ filtros, alCambiarFiltro, alLimpiar, temasDisponibles, aniosDisponibles }) => {
   return (
-    <Card className="card-filtro shadow-sm mb-4">
+    <Card className="card-filtro text-white shadow-sm mb-4">
       <Card.Header>
         <h5 className="mb-0">Filtrar Tesis</h5>
       </Card.Header>
@@ -20,7 +20,7 @@ export const BarraFiltrosTesis = ({ filtros, alCambiarFiltro, alLimpiar, temasDi
 
           <Form.Group className="mb-3">
             <Form.Label><strong>Año</strong></Form.Label>
-            <Form.Select className="anio"
+            <Form.Select className="anio text-white"
               value={filtros.anio}
               onChange={(e) => alCambiarFiltro('anio', e.target.value)}
             >
@@ -33,7 +33,7 @@ export const BarraFiltrosTesis = ({ filtros, alCambiarFiltro, alLimpiar, temasDi
 
           <Form.Group className="mb-3">
             <Form.Label><strong>Tema / Especialidad</strong></Form.Label>
-            <Form.Select className="tema"
+            <Form.Select className="tema text-white"
               value={filtros.tema}
               onChange={(e) => alCambiarFiltro('tema', e.target.value)}
             >

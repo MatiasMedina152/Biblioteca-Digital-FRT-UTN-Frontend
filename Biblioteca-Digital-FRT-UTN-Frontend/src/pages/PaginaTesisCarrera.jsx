@@ -1,10 +1,10 @@
-import { useState, useEffect } from 'react';
-import { useParams, Link } from 'react-router-dom';
-import { Container, Row, Col, Card, Button, Spinner } from 'react-bootstrap';
-import Swal from 'sweetalert2';
-import { obtenerTesisPorTecnicatura } from '../services/servicioTesis';
-import { obtenerTecnicaturaPorId } from '../services/servicioTecnicaturas';
-import { BarraFiltrosTesis } from '../components/BarraFiltrosTesis';
+import { useState, useEffect } from "react";
+import { useParams, Link } from "react-router-dom";
+import { Container, Row, Col, Card, Button, Spinner } from "react-bootstrap";
+import Swal from "sweetalert2";
+import { obtenerTesisPorTecnicatura } from "../services/servicioTesis";
+import { obtenerTecnicaturaPorId } from "../services/servicioTecnicaturas";
+import { BarraFiltrosTesis } from "../components/BarraFiltrosTesis";
 import "../App.css";
 import "../components/styles-components/PaginaTesisCarrera.css";
 
@@ -88,15 +88,16 @@ export const PaginaTesisCarrera = () => {
 
             <Col lg={9}>
               {tesisFiltradas.length === 0 ? (
-                <div className="alert alert-warning">
+                <div className="alert alert-warning text-white">
                   No se encontraron tesis con los filtros seleccionados.
                 </div>
               ) : (
                 <Row>
                   {tesisFiltradas.map((tesis) => (
                     <Col md={6} key={tesis.id} className="mb-4">
-                      <Card className="car-tesis h-100">
-                        <Card.Img className="card-img-top"
+                      <Card className="car-tesis text-white h-100">
+                        <Card.Img
+                          className="card-img-top"
                           variant="top"
                           src={tesis.miniaturaimagen}
                           style={{ height: "160px", objectFit: "cover" }}

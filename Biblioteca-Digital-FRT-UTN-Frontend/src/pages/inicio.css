@@ -1,27 +1,32 @@
+.container-inicio{
+  background: linear-gradient(135deg,#0f172a,#172554,#334155);
+}
 
 .inicio-titulo {
-  color: var(--color-blanco);
-  border-color: var(--color-secundario) !important; 
+  border-color: var(--color-blanco);
 }
 
 .inicio-btn {
-  background-color: var(--color-btn);
-  color: var(--color-blanco);
-  border: none;
-  box-shadow: var(--sombra-card);
   transition: all 0.3s ease; 
+  border: 2px solid var(--color-secundario)
 }
 
 .inicio-btn:hover {
+  background-color: var(--color-secundario);
   color: var(--color-blanco);
   box-shadow: var(--neon);
 }
 
 
 .img-dev-custom {
-  height: 240px;
-  object-fit: cover;
-  object-position: top;
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%;
+    display: block;
+    margin: 1.5rem auto 0;
+
 }
 
 .card-hover-neon {
@@ -32,4 +37,8 @@
 .card-hover-neon:hover {
   transform: translateY(-8px);
   box-shadow: var(--neon); 
+}
+
+.tarjeta{
+  background: linear-gradient(135deg,#0f172a,#172554,#334155);
 }

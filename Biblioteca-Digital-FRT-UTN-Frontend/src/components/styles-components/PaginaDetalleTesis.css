@@ -1,46 +1,26 @@
-.titulos-proyecto {
-    color: var(--color-blanco);
-}
-
-.titulos-proyecto h2 {
-    color: var(--color-secundario);
-}
-
-.integrantes {
-    color: var(--color-blanco);
-    background-color: var(--color-superficie);
-    border: 2px solid var(--color-secundario);
+.integrantes,
+.redes,
+.descripcion-proyecto {
+  background-color: var(--color-superficie);
+  border: 2px solid var(--color-secundario);
 }
 
 .card-header {
-    border-bottom: 2px solid var(--color-secundario);
+  border-bottom: 2px solid var(--color-secundario);
 }
 
 .integrante-imagen {
-    border: 1px solid var(--color-secundario);
-}
-
-.redes {
-    color: var(--color-blanco);
-    background-color: var(--color-superficie);
-    border: 2px solid var(--color-secundario);
+  border: 1px solid var(--color-secundario);
 }
 
 .btn-dark {
-    background-color: var(--color-btn);
-    border-color: var(--color-btn);
+  background-color: var(--color-btn);
+  border-color: var(--color-btn);
 }
 
 .btn:hover {
-    color: var(--color-blanco);
-    background-color: var(--color-btn);
-    border-color: 1px solid var(--color-blanco);
-    box-shadow: var(--neon);
+  color: var(--color-blanco);
+  background-color: var(--color-btn);
+  border-color: 1px solid var(--color-blanco);
+  box-shadow: var(--neon);
 }
-
-.descripcion-proyecto {
-    color: var(--color-blanco);
-    background-color: var(--color-superficie);
-    border: 2px solid var(--color-secundario);
-}
-

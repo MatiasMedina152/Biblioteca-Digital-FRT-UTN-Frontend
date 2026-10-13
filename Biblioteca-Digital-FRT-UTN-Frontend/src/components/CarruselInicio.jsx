@@ -15,8 +15,8 @@ function CarruselInicio() {
           alt="Imagen la Universidad UTN"
         />
         <Carousel.Caption className="bg-dark bg-opacity-50 rounded-3 p-3 mb-4" >
-          <h3> Universidad Tecnologica Nacional</h3>
-          <p>Un lugar donde las personas forjan su futuro y el del pais.</p>
+          <h3> Universidad Tecnológica Nacional</h3>
+          <p>Un lugar donde las personas forjan su futuro y el del país.</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -27,8 +27,8 @@ function CarruselInicio() {
           alt="Imagen de la Universidad UTN"
         />
         <Carousel.Caption className="bg-dark bg-opacity-50 rounded-3 p-3 mb-4">
-          <h3>Tecnicaturas y Licenciauras</h3>
-          <p>Tambien podemos ofrecer carreras profesionales de corta duracion</p>
+          <h3>Tecnicaturas y Licenciaturas</h3>
+          <p>Tambien podemos ofrecer carreras profesionales de corta duración</p>
         </Carousel.Caption>
       </Carousel.Item>
 
@@ -40,7 +40,7 @@ function CarruselInicio() {
         />
         <Carousel.Caption className="bg-dark bg-opacity-50 rounded-3 p-3 mb-4">
           <h3>Nuestros Estudiantes</h3>
-          <p>Ellos son el motor del mañana. "Jovenes" promesas que guiaran el futuro de la Nacion (lamentablemente)</p>
+          <p>Ellos son el motor del mañana. "Jovenes" promesas que guiarán el futuro de la Nación (lamentablemente)</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
