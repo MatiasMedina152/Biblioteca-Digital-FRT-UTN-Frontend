@@ -92,7 +92,7 @@ function Ayuda() {
             ayudaremos.
           </p>
 
-          <div className="formulario-ayuda p-5 rounded-4">
+          <div className="formulario-ayuda p-5 rounded-4 text-white fw-medium">
             <Form>
               <Row>
                 <Col md={6}>

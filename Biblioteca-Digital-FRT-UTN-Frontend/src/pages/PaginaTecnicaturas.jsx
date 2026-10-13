@@ -32,10 +32,9 @@ export const PaginaTecnicaturas = () => {
   return (
     <div className="d-flex flex-column min-vh-100">
       <Container className="my-4 flex-grow-1">
-        <h1 className="tecnicaturas-titulo mb-4 text-center">
+        <h1 className="tecnicaturas-titulo p-4 text-center mb-3">
           Tecnicaturas Disponibles
         </h1>
-
         {cargando ? (
           <div className="text-center my-5">
             <Spinner animation="border" variant="primary" />
