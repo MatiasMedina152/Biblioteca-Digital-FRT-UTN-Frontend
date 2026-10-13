@@ -1,12 +1,12 @@
 /*navbar*/
 .navbar {
-  background: linear-gradient(135deg,#0f172a,#172554,#334155);
+  background: linear-gradient(135deg, #0f172a, #172554, #334155);
 }
 
 .navbar .nav-link,
 .navbar .dropdown-toggle {
   color: var(--color-texto-suave);
-  transition: color 0.3s ease;  
+  transition: color 0.3s ease;
 }
 
 .navbar .nav-link:hover,
@@ -14,7 +14,7 @@
   color: var(--color-secundario);
 }
 
-.navbar .nav-link:hover{
+.navbar .nav-link:hover {
   color: var(--color-secundario);
 }
 
@@ -30,35 +30,34 @@
   color: var(--color-blanco);
 }
 
-
 /*menu hamburguesa*/
 .navbar .navbar-toggler {
   border: 2px solid var(--color-primario);
   background: var(--color-secundario);
 }
 
-.navbar .navbar-toggler:hover{
+.navbar .navbar-toggler:hover {
   border-color: var(--color-blanco);
 }
 
-/*botones login*/
+/*botones login y register*/
 .btn-login-register {
-    background-color: transparent;
-    border: 1px solid var(--color-secundario);
+  background-color: transparent;
+  border: 1px solid var(--color-secundario);
+  transition: 0.3s;
 }
 
 .btn-login-register:hover {
-    background-color: var(--color-secundario);
-    border-color: var(--color-blanco);
-    box-shadow: var(--neon);
+  background-color: var(--color-secundario);
+  border-color: var(--color-blanco);
+  box-shadow: var(--neon);
 }
-
 
 .btn-login-register:focus,
 .btn-login-register:active,
 .btn-login-register:focus:active {
-    background-color: var(--color-primario);
-    border-color: var(--color-secundario);
-    color: var(--color-blanco);
-    box-shadow: none;
+  background-color: var(--color-primario);
+  border-color: var(--color-secundario);
+  color: var(--color-blanco);
+  box-shadow: none;
 }

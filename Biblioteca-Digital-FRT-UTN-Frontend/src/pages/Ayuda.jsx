@@ -10,21 +10,20 @@ import "./ayuda.css";
 function Ayuda() {
   return (
     <Container className="py-5">
-      {/* Título */}
+
       <Row className="titulo-ayuda p-4 text-center mb-5 rounded-4">
         <Col>
-          <h1 className="text-center mb-3">Centro de Ayuda</h1>
-          <p className="text-center">
+          <h1 className="text-center mb-3 text-light">Centro de Ayuda</h1>
+          <p className="text-center text-light">
             Encontrá respuestas a las preguntas más frecuentes o contactanos si
             necesitás ayuda.
           </p>
         </Col>
       </Row>
 
-      {/* Preguntas frecuentes */}
       <Row className="mb-5">
         <Col>
-          <h2 className="titulo-seccion mb-5 mt-3 text-center fw-semibold rounded-4">
+          <h2 className="titulo-seccion mb-5 mt-5 text-center fw-semibold rounded-4">
             Preguntas frecuentes
           </h2>
           <Accordion className="acordeon-ayuda">
@@ -93,7 +92,7 @@ function Ayuda() {
             ayudaremos.
           </p>
 
-          <div className="formulario-ayuda rounded-4">
+          <div className="formulario-ayuda p-5 rounded-4">
             <Form>
               <Row>
                 <Col md={6}>
@@ -138,7 +137,7 @@ function Ayuda() {
 
               <div className="d-grid">
                 <Button
-                  className="btn-enviar fw-semibold"
+                  className="btn-enviar fw-semibold p-2"
                   variant="primary"
                   type="submit"
                 >

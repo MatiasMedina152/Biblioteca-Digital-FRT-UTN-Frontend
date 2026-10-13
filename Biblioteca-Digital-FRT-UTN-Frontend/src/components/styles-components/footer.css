@@ -2,10 +2,6 @@
   background: linear-gradient(135deg,#0f172a,#172554,#334155);
 }
 
-.footer h5 {
-  color: var(--color-secundario);
-}
-
 .link-footer{
   display: inline-block;
   transition: color 0.3s ease, transform 0.3s ease;
