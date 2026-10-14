@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { Container, Row, Col } from "react-bootstrap";
 import { FaInstagram } from "react-icons/fa";
 import { CgMail } from "react-icons/cg";
@@ -65,33 +66,33 @@ const Footer = () => {
             <h5>Secciones</h5>
             <ul className="list-unstyled d-flex flex-column gap-2">
               <li>
-                <a
-                  href="/"
+                <Link
+                  to="/"
                   className="link-footer text-light text-decoration-none"
                 >
                   <IoHomeOutline className="me-2" />
                   Inicio
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a
-                  href="/tecnicaturas"
+                <Link
+                  to="/tecnicaturas"
                   className="link-footer text-light text-decoration-none"
                 >
                   <BsPersonWorkspace className="me-2" />
                   Tecnicaturas
-                </a>
+                </Link>
               </li>
 
               <li>
-                <a
-                  href="/ayuda"
+                <Link
+                  to="/ayuda"
                   className="link-footer text-light text-decoration-none"
                 >
                   <TbHelpHexagon className="me-2" />
-                  Ayuda
-                </a>
+                   Ayuda
+                </Link>
               </li>
             </ul>
           </Col>
