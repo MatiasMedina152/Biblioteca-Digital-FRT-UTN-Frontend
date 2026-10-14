@@ -1,11 +1,11 @@
-import clienteAxios from '../api/clienteAxios';
+import { obtenerDb } from './servicioDatos';
 
 export const obtenerTecnicaturas = async () => {
-  const respuesta = await clienteAxios.get('/tecnicaturas');
-  return respuesta.data;
+  const db = await obtenerDb();
+  return db.tecnicaturas;
 };
 
 export const obtenerTecnicaturaPorId = async (id) => {
-  const respuesta = await clienteAxios.get(`/tecnicaturas/${id}`);
-  return respuesta.data;
+  const db = await obtenerDb();
+  return db.tecnicaturas.find((t) => t.id === String(id));
 };
