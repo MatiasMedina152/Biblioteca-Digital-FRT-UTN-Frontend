@@ -1,5 +1,8 @@
-/*navbar*/
-.navbar {
+/*fondo de navbar, footer y tarjetas */
+.navbar,
+.footer,
+.tarjeta,
+.bg-card {
   background: linear-gradient(135deg, #0f172a, #172554, #334155);
 }
 
@@ -29,26 +32,4 @@
 
 .navbar .navbar-toggler:hover {
   border-color: var(--color-blanco);
-}
-
-/*botones login y register*/
-.btn-login-register {
-  background-color: transparent;
-  border: 1px solid var(--color-secundario);
-  transition: 0.3s;
-}
-
-.btn-login-register:hover {
-  background-color: var(--color-secundario);
-  border-color: var(--color-blanco);
-  box-shadow: var(--neon);
-}
-
-.btn-login-register:focus,
-.btn-login-register:active,
-.btn-login-register:focus:active {
-  background-color: var(--color-primario);
-  border-color: var(--color-secundario);
-  color: var(--color-blanco);
-  box-shadow: none;
 }

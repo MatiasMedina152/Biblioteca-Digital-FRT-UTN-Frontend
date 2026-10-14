@@ -1,26 +1,7 @@
-.integrantes,
-.redes,
-.descripcion-proyecto {
-  background-color: var(--color-superficie);
-  border: 2px solid var(--color-secundario);
-}
-
 .card-header {
   border-bottom: 2px solid var(--color-secundario);
 }
 
 .integrante-imagen {
   border: 1px solid var(--color-secundario);
-}
-
-.btn-dark {
-  background-color: var(--color-btn);
-  border-color: var(--color-btn);
-}
-
-.btn:hover {
-  color: var(--color-blanco);
-  background-color: var(--color-btn);
-  border-color: 1px solid var(--color-blanco);
-  box-shadow: var(--neon);
 }

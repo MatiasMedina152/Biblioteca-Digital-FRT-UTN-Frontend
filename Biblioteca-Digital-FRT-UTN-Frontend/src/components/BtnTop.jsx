@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import Button from "react-bootstrap/Button";
 import "../components/styles-components/btnTop.css";
+import "./styles-components/botones.css"
 
 function BotonVolverArriba() {
   const [visible, setVisible] = useState(false);
