@@ -137,8 +137,7 @@ function Ayuda() {
 
               <div className="d-grid">
                 <Button
-                  className="btn-enviar fw-semibold p-2"
-                  variant="primary"
+                  className="style-boton fw-semibold p-2"
                   type="submit"
                 >
                   Enviar mensaje

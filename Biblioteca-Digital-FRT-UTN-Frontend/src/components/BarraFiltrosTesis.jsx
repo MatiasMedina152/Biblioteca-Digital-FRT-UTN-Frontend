@@ -1,9 +1,8 @@
-import React from 'react';
 import { Card, Form, Button } from 'react-bootstrap';
 
 export const BarraFiltrosTesis = ({ filtros, alCambiarFiltro, alLimpiar, temasDisponibles, aniosDisponibles }) => {
   return (
-    <Card className="card-filtro text-white shadow-sm mb-4">
+    <Card className="bg-card text-white shadow-sm mb-4">
       <Card.Header>
         <h5 className="mb-0">Filtrar Tesis</h5>
       </Card.Header>
@@ -14,7 +13,11 @@ export const BarraFiltrosTesis = ({ filtros, alCambiarFiltro, alLimpiar, temasDi
             <Form.Control placeholder="Juan Pérez" className="autor"
               type="text"
               value={filtros.autor}
-              onChange={(e) => alCambiarFiltro('autor', e.target.value)}
+              onChange={(e) => {
+                // Permite solo letras (con tildes y ñ), espacios, apóstrofes y guiones
+                const soloLetras = e.target.value.replace(/[^A-Za-zÁÉÍÓÚÜáéíóúüÑñ\s'-.]/g, '');
+                alCambiarFiltro('autor', soloLetras);
+              }}
             />
           </Form.Group>
 
@@ -44,7 +47,7 @@ export const BarraFiltrosTesis = ({ filtros, alCambiarFiltro, alLimpiar, temasDi
             </Form.Select>
           </Form.Group>
 
-          <Button variant="dark" className="w-100" onClick={alLimpiar}>
+          <Button className="style-boton w-100" onClick={alLimpiar}>
             Limpiar Filtros
           </Button>
         </Form>

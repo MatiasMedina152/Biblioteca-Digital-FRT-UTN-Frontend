@@ -4,7 +4,6 @@ import { Link } from "react-router-dom";
 import Swal from "sweetalert2";
 import { obtenerTecnicaturas } from "../services/servicioTecnicaturas";
 import "../App.css";
-import "../components/styles-components/PaginaTecnicaturas.css";
 
 export const PaginaTecnicaturas = () => {
   const [tecnicaturas, setTecnicaturas] = useState([]);
@@ -32,7 +31,7 @@ export const PaginaTecnicaturas = () => {
   return (
     <div className="d-flex flex-column min-vh-100">
       <Container className="my-4 flex-grow-1">
-        <h1 className="tecnicaturas-titulo p-4 text-center mb-3">
+        <h1 className="p-4 text-center mb-3">
           Tecnicaturas Disponibles
         </h1>
         {cargando ? (
@@ -43,7 +42,7 @@ export const PaginaTecnicaturas = () => {
           <Row>
             {tecnicaturas.map((tecnicatura) => (
               <Col key={tecnicatura.id} md={4} className="mb-4">
-                <Card className="card-tecnicaturas text-white h-100 shadow-sm">
+                <Card className="tarjeta text-white h-100 shadow-sm">
                   <Card.Img
                     variant="top"
                     src={tecnicatura.imagen}
@@ -65,8 +64,7 @@ export const PaginaTecnicaturas = () => {
                     <Button
                       as={Link}
                       to={`/tecnicaturas/${tecnicatura.id}/tesis`}
-                      variant="dark"
-                      className="mt-auto w-100"
+                      className="style-boton mt-auto w-100"
                     >
                       Ver Tesis
                     </Button>

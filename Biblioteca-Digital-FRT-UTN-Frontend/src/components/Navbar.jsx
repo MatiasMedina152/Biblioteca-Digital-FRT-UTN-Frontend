@@ -5,6 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/Button";
 import "../App.css";
 import "../components/styles-components/navbar.css";
+import "../components/styles-components/botones.css"
 
 function NavbarComponent() {
   return (
@@ -29,8 +30,8 @@ function NavbarComponent() {
           </Nav>
 
           <Nav className="navbar-btn gap-2 d-flex flex-column flex-lg-row">
-            <Button className="btn-login-register">Iniciar sesión</Button>
-            <Button className="btn-login-register">Registrarse</Button>
+            <Button className="style-boton">Iniciar sesión</Button>
+            <Button className="style-boton">Registrarse</Button>
           </Nav>
         </Navbar.Collapse>
       </Container>
