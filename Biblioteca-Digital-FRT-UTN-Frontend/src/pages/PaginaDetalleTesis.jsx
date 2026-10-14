@@ -62,6 +62,7 @@ export const PaginaDetalleTesis = () => {
               fluid
               rounded
               className="mb-3 shadow-sm"
+              alt="foto-proyecto"
               style={{ width: "100%", maxHeight: "350px", objectFit: "cover" }}
             />
 
@@ -84,7 +85,7 @@ export const PaginaDetalleTesis = () => {
           <Col className="titulos-proyecto" md={6}>
             <h2>{tesis.titulo}</h2>
             <h5 className="mb-2">{tesis.nombreTecnicatura}</h5>
-            <p>Fecha de presentación: {tesis.fecha}</p>
+            <p className="subtitulo">Fecha de presentación: {tesis.fecha}</p>
 
             <div className="mb-3">
               <Badge bg="danger" className="me-2">
@@ -93,7 +94,7 @@ export const PaginaDetalleTesis = () => {
               <Badge bg="danger">Año: {tesis.anio}</Badge>
             </div>
 
-            <Card className="integrantes mb-3 text-white">
+            <Card className="bg-card mb-3 text-white">
               <Card.Header as="h6">Integrantes del Proyecto</Card.Header>
               <Card.Body>
                 <Row className="text-white">
@@ -108,6 +109,7 @@ export const PaginaDetalleTesis = () => {
                         roundedCircle
                         width={100}
                         height={100}
+                        alt={`integrantes ${indice + 1}`}
                         className="integrante-imagen me-2"
                       />
                       <span>{integrante.nombre}</span>
@@ -117,19 +119,19 @@ export const PaginaDetalleTesis = () => {
               </Card.Body>
             </Card>
 
-            <Card className="redes shadow-sm text-white">
+            <Card className="bg-card shadow-sm text-white">
               <Card.Header as="h6">Documentación y Enlaces</Card.Header>
               <Card.Body className="d-flex flex-wrap gap-2">
-                <Button variant="dark" href={tesis.urlPdf} target="_blank">
+                <Button className="style-boton" href={tesis.urlPdf} target="_blank">
                   Leer Tesis (PDF)
                 </Button>
-                <Button variant="dark" href={tesis.urlVideo} target="_blank">
+                <Button className="style-boton" href={tesis.urlVideo} target="_blank">
                   Ver Video
                 </Button>
-                <Button variant="dark" href={tesis.urlGithub} target="_blank">
+                <Button className="style-boton" href={tesis.urlGithub} target="_blank">
                   GitHub
                 </Button>
-                <Button variant="dark" href={tesis.urlYoutube} target="_blank">
+                <Button className="style-boton" href={tesis.urlYoutube} target="_blank">
                   YouTube
                 </Button>
               </Card.Body>
@@ -139,7 +141,7 @@ export const PaginaDetalleTesis = () => {
 
         <Row className="mt-4">
           <Col md={12}>
-            <Card className="descripcion-proyecto shadow-sm text-white">
+            <Card className="bg-card shadow-sm text-white">
               <Card.Header as="h5">Descripción del Proyecto</Card.Header>
               <Card.Body>
                 <Card.Text>{tesis.resumen}</Card.Text>

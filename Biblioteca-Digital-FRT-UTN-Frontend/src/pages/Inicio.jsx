@@ -11,10 +11,10 @@ function Inicio() {
     <>
       <CarruselInicio />
 
-      <div className="container-inicio container mt-5 mb-5 text-white p-5 rounded-5">
+      <div className="tarjeta container mt-5 mb-5 text-white p-5 rounded-5">
         <div className="row align-items-center">
           <div className="col-md-5 mb-4 mb-md-0">
-            <h2 className="fw-bold border-start border-4 ps-3 inicio-titulo">
+            <h2 className="fw-bold border-start border-4 ps-3">
               Facultad Regional Tucumán (UTN)
             </h2>
           </div>
@@ -30,7 +30,7 @@ function Inicio() {
 
             <Link
               to="https://frt.utn.edu.ar/"
-              className="btn mt-3 fw-bold px-4 py-2 inicio-btn text-white"
+              className="btn mt-3 fw-bold px-4 py-2 style-boton text-white"
             >
               Conocer más
             </Link>
@@ -38,7 +38,7 @@ function Inicio() {
         </div>
       </div>
 
-      <div className="container-inicio container py-5 mb-5 text-white p-5 rounded-5">
+      <div className="tarjeta container py-5 mb-5 text-white p-5 rounded-5">
         <div className="row align-items-center">
           <div className="col-md-5 mb-4 mb-md-0">
             <h2 className="fw-bold border-start border-4 ps-3 inicio-titulo">
@@ -57,7 +57,7 @@ function Inicio() {
 
             <Link
               to="/tecnicaturas"
-              className="inicio-btn btn mt-3 fw-bold px-4 py-2 inicio-btn text-white"
+              className="style-boton btn mt-3 fw-bold px-4 py-2 inicio-btn text-white"
             >
               Explorar
             </Link>

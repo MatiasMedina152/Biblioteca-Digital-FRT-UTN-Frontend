@@ -6,7 +6,7 @@ import { obtenerTesisPorTecnicatura } from "../services/servicioTesis";
 import { obtenerTecnicaturaPorId } from "../services/servicioTecnicaturas";
 import { BarraFiltrosTesis } from "../components/BarraFiltrosTesis";
 import "../App.css";
-import "../components/styles-components/PaginaTesisCarrera.css";
+import "../components/styles-components/formulario.css";
 
 export const PaginaTesisCarrera = () => {
   const { tecnicaturaId } = useParams();
@@ -66,7 +66,7 @@ export const PaginaTesisCarrera = () => {
   return (
     <div className="d-flex flex-column min-vh-100">
       <Container className="my-4 flex-grow-1">
-        <h2 className=" tecnicaturas-tesis mb-4">
+        <h2 className="tecnicaturas-tesis mb-4">
           Tesis de {nombreTecnicatura || "la Tecnicatura"}
         </h2>
 
@@ -88,22 +88,21 @@ export const PaginaTesisCarrera = () => {
 
             <Col lg={9}>
               {tesisFiltradas.length === 0 ? (
-                <div className="alert alert-warning text-white">
+                <div className="alert bg-card text-white">
                   No se encontraron tesis con los filtros seleccionados.
                 </div>
               ) : (
                 <Row>
                   {tesisFiltradas.map((tesis) => (
                     <Col md={6} key={tesis.id} className="mb-4">
-                      <Card className="car-tesis text-white h-100">
+                      <Card className="bg-card text-white h-100">
                         <Card.Img
-                          className="card-img-top"
                           variant="top"
                           src={tesis.miniaturaimagen}
                           style={{ height: "160px", objectFit: "cover" }}
                         />
                         <Card.Body className="d-flex flex-column">
-                          <Card.Title className="card-titulo-tesis">
+                          <Card.Title>
                             {tesis.titulo}
                           </Card.Title>
                           <p className="small mb-1">
@@ -119,8 +118,7 @@ export const PaginaTesisCarrera = () => {
                           <Button
                             as={Link}
                             to={`/tesis/${tesis.id}`}
-                            variant="dark"
-                            className="mt-auto w-100"
+                            className="style-boton mt-auto w-100"
                           >
                             Ver Detalle
                           </Button>

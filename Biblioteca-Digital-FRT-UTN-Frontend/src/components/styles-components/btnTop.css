@@ -14,6 +14,8 @@
 }
 
 .btn-volver-arriba:hover {
+  border-color: var(--color-blanco);
+  background-color: var(--color-secundario);
   box-shadow: 0 0 0.6rem var(--color-secundario);
   transform: translateY(-4px);
 }

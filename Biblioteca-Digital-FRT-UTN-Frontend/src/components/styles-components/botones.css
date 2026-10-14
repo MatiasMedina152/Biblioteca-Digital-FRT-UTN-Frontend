@@ -1,0 +1,20 @@
+.style-boton {
+  background-color: transparent;
+  border: 1px solid var(--color-secundario);
+  transition: 0.3s;
+}
+
+.style-boton:hover {
+  background-color: var(--color-secundario);
+  border-color: var(--color-blanco);
+  box-shadow: var(--neon);
+}
+
+.style-boton:focus,
+.style-boton:active,
+.style-boton:focus:active {
+  background-color: var(--color-primario);
+  border-color: var(--color-secundario);
+  color: var(--color-blanco);
+  box-shadow: none;
+}
